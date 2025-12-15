@@ -1,0 +1,14 @@
+# Ignore API keys
+.env
+
+# Ignore Python cache & virtual envs
+__pycache__/
+venv/
+.venv/
+env/
+
+# Ignore the local vector database (it's binary and large)
+vectorstore/
+
+# Ignore system files
+.DS_Store
